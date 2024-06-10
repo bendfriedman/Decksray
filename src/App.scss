@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+
+:root {
+  --font-main-clr: #fff;
+  --bg-main-clr: #6d6d6d;
+}
+
+body {
+  color: var(--font-main-clr);
+  background-color: var(--bg-main-clr);
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
