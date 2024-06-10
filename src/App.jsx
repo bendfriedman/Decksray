@@ -1,10 +1,12 @@
 import "./App.scss";
-import NavBar from "./components/NavBar/NavBar";
+import { MainBanner } from "./components/MainBanner/MainBanner";
+import { MainNavBar } from "./components/MainNavBar/MainNavBar";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <MainNavBar />
+      <MainBanner />
     </>
   );
 }

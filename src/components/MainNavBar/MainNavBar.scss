@@ -1,0 +1,48 @@
+#main-nav-bar {
+  background-color: var(--bg-main-clr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+  border-bottom: 1px solid var(--accent-main-clr);
+
+  #main-nav-logo-container {
+    width: 50%;
+
+    img {
+      width: 25%;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    li {
+      cursor: pointer;
+      transition: color 200ms ease-in;
+      width: fit-content;
+    }
+
+    li:hover {
+      color: var(--accent-main-clr);
+    }
+  }
+
+  #main-nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    button {
+      padding: 0.2rem;
+      font-size: 1rem;
+      width: 5rem;
+      border-radius: 1rem;
+      cursor: pointer;
+      background-color: var(--accent-main-clr);
+      font-weight: bold;
+    }
+  }
+}
