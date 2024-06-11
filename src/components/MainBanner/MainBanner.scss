@@ -1,8 +1,8 @@
 #main-banner {
-  height: 100vh;
+  --_banner-height: calc(100vh - 86px);
+  height: var(--_banner-height);
   width: 100%;
   display: flex;
-  align-items: center;
   background-color: rgb(34, 34, 34);
   background: rgb(38, 180, 56);
   background: radial-gradient(
@@ -11,10 +11,6 @@
     rgb(15, 66, 21) 25%,
     rgba(0, 0, 0, 1) 70%
   );
-
-  @media (max-width: 900px) {
-    flex-direction: column;
-  }
 
   #main-banner-text {
     width: 50%;
@@ -25,14 +21,14 @@
     padding: 4rem 2rem;
 
     #main-banner-text-1 {
-      --h1-font-size: 4rem;
+      --_h1-font-size: 4rem;
       display: flex;
       flex-direction: column;
       align-items: left;
       gap: 0.5rem;
 
       h1 {
-        font-size: var(--h1-font-size);
+        font-size: var(--_h1-font-size);
       }
 
       div {
@@ -41,11 +37,11 @@
         gap: 0.5rem;
 
         h1 {
-          font-size: var(--h1-font-size);
+          font-size: var(--_h1-font-size);
         }
 
         img {
-          height: var(--h1-font-size);
+          height: var(--_h1-font-size);
         }
       }
     }
@@ -56,7 +52,7 @@
       }
     }
 
-    #main-banner-btns {
+    #main-banner-text-btns {
       display: flex;
       gap: 1rem;
 
@@ -68,6 +64,10 @@
         cursor: pointer;
         background-color: var(--accent-main-clr);
         font-weight: bold;
+
+        a {
+          color: #000;
+        }
       }
     }
   }
@@ -76,9 +76,44 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 1rem;
 
     img {
-      width: 40%;
+      height: calc(var(--_banner-height) * 0.9);
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #main-banner {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    width: 100%;
+
+    #main-banner-text {
+      width: 100%;
+      height: fit-content;
+
+      #main-banner-text-1 {
+        --_h1-font-size: 3rem;
+      }
+    }
+
+    #main-banner-img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #main-banner {
+    #main-banner-text {
+      #main-banner-text-1 {
+        --_h1-font-size: 2rem;
+      }
     }
   }
 }
