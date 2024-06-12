@@ -3,14 +3,6 @@
   height: var(--_banner-height);
   width: 100%;
   display: flex;
-  background-color: rgb(34, 34, 34);
-  background: rgb(38, 180, 56);
-  background: radial-gradient(
-    circle at 75%,
-    rgba(38, 180, 56, 1) 0%,
-    rgb(15, 66, 21) 25%,
-    rgba(0, 0, 0, 1) 70%
-  );
 
   #main-banner-text {
     width: 50%;
@@ -75,7 +67,7 @@
   #main-banner-img {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 1rem;
 
@@ -104,6 +96,7 @@
 
     #main-banner-img {
       width: 100%;
+      justify-content: center;
     }
   }
 }

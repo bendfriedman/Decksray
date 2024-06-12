@@ -1,6 +1,24 @@
 import "./MainNavBar.scss";
+import { useEffect } from "react";
 
 export const MainNavBar = () => {
+  useEffect(() => {
+    window.addEventListener("scroll", (event) => {
+      let scrollPos = window.scrollY;
+      if (scrollPos === 0) {
+        document.getElementById("main-nav-links").classList.remove("popped");
+        document.getElementById("main-nav-arrow-up").style.opacity = "0";
+        document.getElementById("main-nav-arrow-up-container").style.cursor =
+          "default";
+      } else {
+        document.getElementById("main-nav-links").classList.add("popped");
+        document.getElementById("main-nav-arrow-up").style.opacity = "1";
+        document.getElementById("main-nav-arrow-up-container").style.cursor =
+          "pointer";
+      }
+    });
+  }, []);
+
   return (
     <nav id="main-nav-bar">
       <div id="main-nav-logo-container">
@@ -23,8 +41,8 @@ export const MainNavBar = () => {
             <li>Contact</li>
           </a>
           <a href="#main-nav-bar">
-            <li>
-              <i className="fa-solid fa-arrow-up" />
+            <li id="main-nav-arrow-up-container">
+              <i id="main-nav-arrow-up" className="fa-solid fa-arrow-up" />
             </li>
           </a>
         </ul>
