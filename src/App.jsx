@@ -14,11 +14,10 @@ function App() {
         <MainNavBar />
       </header>
       <main>
-        <div id="first-two-sections-wrapper">
+        <div id="bg-wrapper">
           <MainBanner />
           <HowItWorks />
         </div>
-
         <InAction />
         <AboutUs />
         <ContactUs />

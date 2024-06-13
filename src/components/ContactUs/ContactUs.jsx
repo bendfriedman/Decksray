@@ -40,7 +40,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <section id="contact-us-section">
+    <section id="contact-us">
       <div id="contact-us-header">
         <h2>Contact Us</h2>
         <h3>We'd love to hear from you.</h3>

@@ -8,10 +8,7 @@ export const MainBanner = () => {
           <h1>Scan your Trading Cards </h1>
           <div>
             <h1>with</h1>
-            <img
-              src="../../src/assets/White on Transparent_edited.png"
-              alt=""
-            />
+            <img src="/assets/White on Transparent_edited.png" alt="" />
             <h1>!</h1>
           </div>
         </div>
@@ -26,7 +23,7 @@ export const MainBanner = () => {
         </div>
       </div>
       <div id="main-banner-img">
-        <img src="../../src/assets/Decksray_(35).png" alt="card scaner" />
+        <img src="/assets/Decksray_(35).png" alt="card scaner" />
       </div>
     </section>
   );

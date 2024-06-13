@@ -1,5 +1,7 @@
 import "./MainNavBar.scss";
 import { useEffect } from "react";
+import { useState } from "react";
+import decksrayLogo from "/assets/Logo1.png";
 
 export const MainNavBar = () => {
   useEffect(() => {
@@ -22,8 +24,8 @@ export const MainNavBar = () => {
   return (
     <nav id="main-nav-bar">
       <div id="main-nav-logo-container">
-        <a href="#main-nav-bar">
-          <img src="../../src/assets/Logo1.png" alt="Decksray-Logo" />
+        <a href="https://www.decksray.com/">
+          <img src={decksrayLogo} alt="Decksray-Logo" />
         </a>
       </div>
       <div id="main-nav-links-container">
@@ -31,16 +33,16 @@ export const MainNavBar = () => {
           <a href="#how-it-works">
             <li>How It Works</li>
           </a>
-          <a href="#in-action-section">
+          <a href="#in-action">
             <li>In Action</li>
           </a>
-          <a href="#about-us-section">
+          <a href="#about-us">
             <li>About Us</li>
           </a>
-          <a href="#contact-us-section">
+          <a href="#contact-us">
             <li>Contact</li>
           </a>
-          <a href="#main-nav-bar">
+          <a href="#">
             <li id="main-nav-arrow-up-container">
               <i id="main-nav-arrow-up" className="fa-solid fa-arrow-up" />
             </li>

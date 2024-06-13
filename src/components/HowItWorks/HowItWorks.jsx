@@ -8,13 +8,15 @@ export const HowItWorks = () => {
         <div id="how-it-works-col-1">
           <img
             className="how-it-works-icon"
-            src="../../src/assets/SCAN.png"
+            src="/assets/SCAN.png"
             alt="scan icon"
+            loading="lazy"
           />
           <img
             className="how-it-works-img"
-            src="../../src/assets/Decksray (10) (1).png"
+            src="/assets/Decksray (10) (1).png"
             alt="scan img"
+            loading="lazy"
           />
           <p>Scan your Cards.</p>
         </div>
@@ -22,13 +24,15 @@ export const HowItWorks = () => {
         <div id="how-it-works-col-2">
           <img
             className="how-it-works-icon"
-            src="../../src/assets/FILE.png"
+            src="/assets/FILE.png"
             alt="file icon"
+            loading="lazy"
           />
           <img
             className="how-it-works-img"
-            src="../../src/assets/CSV_Example2.png"
+            src="/assets/CSV_Example2.png"
             alt="file csv img"
+            loading="lazy"
           />
           <p>Create your CSV.</p>
         </div>
@@ -36,13 +40,15 @@ export const HowItWorks = () => {
         <div id="how-it-works-col-3">
           <img
             className="how-it-works-icon"
-            src="../../src/assets/PLAN.png"
+            src="/assets/PLAN.png"
             alt="plan icon"
+            loading="lazy"
           />
           <img
             className="how-it-works-img"
-            src="../../src/assets/manage_collection.png"
+            src="/assets/manage_collection.png"
             alt="manage collection img"
+            loading="lazy"
           />
           <p>Manage your collection.</p>
         </div>

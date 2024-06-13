@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   border-bottom: 1px solid var(--accent-main-clr);
 
   #main-nav-logo-container {
@@ -27,7 +27,7 @@
     border: 1px solid var(--bg-main-clr);
     position: fixed;
     right: 0;
-    margin-right: 4rem;
+    margin-right: 2rem;
     transition: border-color 200ms ease;
 
     li {
@@ -68,7 +68,17 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 950px) {
+  #main-nav-bar {
+    #main-nav-links-container {
+      #main-nav-links {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
   #main-nav-bar {
     padding: 1rem 2rem;
 
