@@ -1,12 +1,11 @@
 #how-it-works {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  // scroll-snap-align: start;
-  // scroll-snap-stop: always;
+  padding: 4rem 0;
 
   #how-it-works-container {
     display: flex;

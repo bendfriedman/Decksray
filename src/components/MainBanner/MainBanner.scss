@@ -1,6 +1,6 @@
 #main-banner {
   --_banner-height: calc(100vh - 86px);
-  height: var(--_banner-height);
+  min-height: var(--_banner-height);
   width: 100%;
   display: flex;
 

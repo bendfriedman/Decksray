@@ -5,8 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  // scroll-snap-align: start;
-  // scroll-snap-stop: always;
+  padding: 4rem 0;
 
   #about-us-profile-container {
     width: 100%;
@@ -14,7 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 3rem;
+    row-gap: 4rem;
     column-gap: 10rem;
 
     .about-us-profile-card {
@@ -106,7 +105,7 @@
           90deg,
           white 0%,
           silver 40%,
-          rgb(72, 72, 72) 100%
+          rgb(72, 72, 72) 95%
         );
         background-size: 150% 150%;
         animation: gradientAnimation 5s ease infinite;
@@ -163,6 +162,8 @@
 @media (max-width: 420px) {
   #about-us {
     #about-us-profile-container {
+      row-gap: 0;
+
       .about-us-profile-card {
         scale: 0.9;
 

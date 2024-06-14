@@ -14,14 +14,18 @@ export const MainNavBar = () => {
         document.getElementById("main-nav-arrow-up").style.opacity = "0";
         document.getElementById("main-nav-arrow-up-container").style.cursor =
           "default";
-        document
-          .getElementById("main-nav-hamburger-menu")
-          .classList.remove("popped");
       } else {
         document.getElementById("main-nav-links").classList.add("popped");
         document.getElementById("main-nav-arrow-up").style.opacity = "1";
         document.getElementById("main-nav-arrow-up-container").style.cursor =
           "pointer";
+      }
+
+      if (scrollPos <= 30) {
+        document
+          .getElementById("main-nav-hamburger-menu")
+          .classList.remove("popped");
+      } else {
         document
           .getElementById("main-nav-hamburger-menu")
           .classList.add("popped");
