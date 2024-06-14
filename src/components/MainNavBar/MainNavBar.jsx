@@ -1,5 +1,5 @@
 import "./MainNavBar.scss";
-import { useEffect } from "react";
+import { act, useEffect } from "react";
 import { useState } from "react";
 import decksrayLogo from "/assets/Logo1.png";
 
@@ -30,6 +30,23 @@ export const MainNavBar = () => {
           .getElementById("main-nav-hamburger-menu")
           .classList.add("popped");
       }
+
+      const sections = [...document.getElementsByTagName("section")];
+      const navLinks = [...document.querySelectorAll("#main-nav-links li")];
+      let activeSection;
+      for (let i = 0; i < sections.length; i++) {
+        console.log("scrollPos", scrollPos);
+        console.log("sections[i].offsetTop", sections[i].offsetTop);
+        if (scrollPos - window.innerHeight * 0.9 <= sections[i].offsetTop) {
+          activeSection = sections[i];
+
+          break;
+        }
+      }
+      navLinks.forEach((e) => e.classList.remove("active"));
+      if (activeSection) {
+        navLinks[sections.indexOf(activeSection)].classList.add("active");
+      }
     });
   }, []);
 
@@ -46,6 +63,7 @@ export const MainNavBar = () => {
       </div>
       <div id="main-nav-links-container">
         <ul id="main-nav-links">
+          <li></li>
           <a href="#how-it-works">
             <li>How It Works</li>
           </a>

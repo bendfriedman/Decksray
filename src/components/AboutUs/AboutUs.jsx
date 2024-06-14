@@ -23,7 +23,7 @@ export const AboutUs = () => {
               <img src="/assets/favicon/Watermark Small.png" alt="" />
             </div>
           </div>
-          <div className="text-box">
+          <div className="text-box ben">
             <div className="text-box-inner">
               <p>
                 I'm a passionate Magic: The Gathering player and collector,
@@ -56,7 +56,7 @@ export const AboutUs = () => {
               <img src="/assets/favicon/Watermark Small.png" alt="" />
             </div>
           </div>
-          <div className="text-box">
+          <div className="text-box david">
             <div className="text-box-inner">
               <p>
                 As a die-hard (red!) Magic: The Gathering fan I love diving into
