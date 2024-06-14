@@ -13,17 +13,12 @@ export const InAction = () => {
           alt="decksray card scanner machine"
           loading="lazy"
         />
-        {/* <img
-          src="/assets/Decksray_scanner_1.jpg"
-          alt="decksray card scanner machine"
-          loading="lazy"
-        /> */}
 
         <iframe
-          src="https://www.youtube.com/embed/0bOb-8b5ohQ?si=n_-NDD2_PTPXQdlf&controls=1&rel=0"
+          src="https://www.youtube.com/embed/eZMu5UdSd4o?si=rqcOPnfMyWEG9137&;controls=1&rel=0"
           title="YouTube video player - Decksray in action"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media;fullscreen; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          // referrerPolicy="strict-origin-when-cross-origin"
           loading="lazy"
         />
 

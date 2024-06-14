@@ -5,13 +5,15 @@
     rgb(15, 66, 21) 35%,
     rgba(0, 0, 0, 1) 60%
   );
-  height: 85vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   gap: 2rem;
+  // scroll-snap-align: start;
+  // scroll-snap-stop: always;
 
   #contact-us-header {
     text-align: center;

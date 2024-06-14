@@ -7,6 +7,10 @@
   --accent-dark-clr: #0fb124;
 }
 
+// html {
+//   scroll-snap-type: y proximity;
+// }
+
 body {
   color: var(--font-main-clr);
   background-color: var(--bg-main-clr);

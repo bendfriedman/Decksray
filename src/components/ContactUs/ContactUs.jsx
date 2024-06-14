@@ -57,13 +57,7 @@ export const ContactUs = () => {
         </div>
         <div>
           <label>Message</label>
-          <textarea
-            name="message"
-            minLength="10"
-            rows="15"
-            cols="45"
-            required
-          />
+          <textarea name="message" minLength="5" rows="15" cols="45" required />
         </div>
         <button type="submit" value="Send" disabled={isSubmitting}>
           Send

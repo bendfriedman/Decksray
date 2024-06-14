@@ -10,6 +10,8 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  // scroll-snap-align: start;
+  // scroll-snap-stop: always;
 
   #in-action-title {
     text-align: center;
@@ -31,6 +33,7 @@
       width: 272px;
       object-fit: cover;
       border: 1px solid var(--accent-main-clr);
+      border-radius: 0.5rem;
     }
 
     iframe {
@@ -38,6 +41,7 @@
       border: 1px solid var(--accent-main-clr);
       width: calc(var(--_iframe_height) * (272px / 480px));
       height: var(--_iframe_height);
+      border-radius: 0.5rem;
     }
   }
 }
