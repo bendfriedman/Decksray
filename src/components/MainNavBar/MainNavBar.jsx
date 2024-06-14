@@ -72,6 +72,9 @@ export const MainNavBar = () => {
             id="dropdown-nav-links"
             className={showMenuDropdown ? "" : "hide"}
           >
+            <li onClick={onDropdownLinkClick} className="dropdown-closing-x">
+              <i className="fa-solid fa-xmark" />
+            </li>
             <a href="#how-it-works" onClick={onDropdownLinkClick}>
               <li>How It Works</li>
             </a>

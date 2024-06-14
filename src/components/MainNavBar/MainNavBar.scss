@@ -87,22 +87,18 @@
         top: 1px;
         right: 1px;
         background-color: var(--bg-main-clr);
-        padding: 2rem 3rem;
+        padding: 2rem 3rem 2rem 3rem;
         border: 1px solid var(--accent-main-clr);
         border-radius: 0.5rem 0 0.5rem 0.5rem;
         gap: 2rem;
         z-index: 2;
         box-shadow: -15px 5px 35px #000;
+        text-align: center;
 
-        #dropdown-nav-arrow-up-container {
-          text-align: center;
-          margin-top: 1rem;
-
-          i {
-            padding: 0.4em;
-            border: 1px solid var(--accent-main-clr);
-            border-radius: 1rem;
-          }
+        i {
+          padding: 0.4em;
+          border: 1px solid var(--accent-main-clr);
+          border-radius: 0.5rem;
         }
       }
 
