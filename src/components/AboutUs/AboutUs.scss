@@ -102,7 +102,12 @@
         aspect-ratio: 2/1;
         border-radius: 50%;
         border: 1px solid var(--accent-dark-clr);
-        background: linear-gradient(90deg, silver 30%, rgb(72, 72, 72) 100%);
+        background: linear-gradient(
+          90deg,
+          white 0%,
+          silver 40%,
+          rgb(72, 72, 72) 100%
+        );
         background-size: 150% 150%;
         animation: gradientAnimation 5s ease infinite;
       }
