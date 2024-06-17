@@ -94,7 +94,7 @@ export const MainNavBar = () => {
             id="dropdown-nav-links"
             className={showMenuDropdown ? "" : "hide"}
           >
-            <li onClick={onDropdownLinkClick} className="dropdown-closing-x">
+            <li onClick={onDropdownLinkClick} id="dropdown-closing-x">
               <i className="fa-solid fa-xmark" />
             </li>
             <a href="#how-it-works" onClick={onDropdownLinkClick}>
@@ -110,7 +110,7 @@ export const MainNavBar = () => {
               <li>Contact</li>
             </a>
             <a href="#" onClick={onDropdownLinkClick}>
-              <li id="dropdown-nav-arrow-up-container">
+              <li id="dropdown-nav-arrow-up">
                 <i
                   id="dropdown-nav-arrow-up"
                   className="fa-solid fa-arrow-up"
