@@ -26,20 +26,20 @@
     width: 100%;
     flex-wrap: wrap;
     gap: 2rem;
+    --_img_iframe_height: 480px;
 
     img {
-      height: 30rem;
-      width: 272px;
-      object-fit: cover;
-      border: 1px solid var(--accent-main-clr);
+      border: 0px solid var(--accent-main-clr);
+      height: var(--_img_iframe_height);
+      aspect-ratio: 9 / 16;
       border-radius: 0.5rem;
+      object-fit: cover;
     }
 
     iframe {
-      --_iframe_height: 480px;
-      border: 1px solid var(--accent-main-clr);
-      width: calc(var(--_iframe_height) * (272px / 480px));
-      height: var(--_iframe_height);
+      border: 0px solid var(--accent-main-clr);
+      height: var(--_img_iframe_height);
+      aspect-ratio: 9 / 16;
       border-radius: 0.5rem;
     }
   }

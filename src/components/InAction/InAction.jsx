@@ -9,7 +9,7 @@ export const InAction = () => {
       </div>
       <div id="in-action-gallery">
         <img
-          src="/assets/Decksray_scanner_2.jpg"
+          src="/assets/card-scanner/Decksray_scanner_2.png"
           alt="decksray card scanner machine"
           loading="lazy"
         />
@@ -23,7 +23,7 @@ export const InAction = () => {
         />
 
         <img
-          src="/assets/Decksray_scanner_3.jpg"
+          src="/assets/card-scanner/Decksray_scanner_3.jpg"
           alt="decksray card scanner machine"
           loading="lazy"
         />

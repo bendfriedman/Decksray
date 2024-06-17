@@ -3,12 +3,12 @@ import "./HowItWorks.scss";
 export const HowItWorks = () => {
   return (
     <section id="how-it-works">
-      <h2>how it works:</h2>
+      <h2>How it Works</h2>
       <div id="how-it-works-container">
         <div id="how-it-works-col-1">
           <img
             className="how-it-works-icon"
-            src="/assets/SCAN.png"
+            src="/assets/info-icons/SCAN.png"
             alt="scan icon"
             loading="lazy"
           />
@@ -18,13 +18,17 @@ export const HowItWorks = () => {
             alt="scan img"
             loading="lazy"
           />
-          <p>Scan your Cards.</p>
+          <h3>High-Quality Scanning:</h3>
+          <p>
+            Ensures precise and detailed scans, preserving unique card
+            characteristics
+          </p>
         </div>
 
         <div id="how-it-works-col-2">
           <img
             className="how-it-works-icon"
-            src="/assets/FILE.png"
+            src="/assets/info-icons/FILE.png"
             alt="file icon"
             loading="lazy"
           />
@@ -34,13 +38,17 @@ export const HowItWorks = () => {
             alt="file csv img"
             loading="lazy"
           />
-          <p>Create your CSV.</p>
+          <h3>Effortless Cataloguing:</h3>
+          <p>
+            Generates a CSV file with scanned card data, streamlining
+            organization.
+          </p>
         </div>
 
         <div id="how-it-works-col-3">
           <img
             className="how-it-works-icon"
-            src="/assets/PLAN.png"
+            src="/assets/info-icons/PLAN.png"
             alt="plan icon"
             loading="lazy"
           />
@@ -50,7 +58,11 @@ export const HowItWorks = () => {
             alt="manage collection img"
             loading="lazy"
           />
-          <p>Manage your collection.</p>
+          <h3>Manage your collection.</h3>
+          <p>
+            Upload you CSV to any popular TCG platform to add to your collection
+            and start building decks.
+          </p>
         </div>
       </div>
     </section>

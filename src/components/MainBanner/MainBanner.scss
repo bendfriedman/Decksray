@@ -41,6 +41,13 @@
     #main-banner-text-2 {
       h3 {
         font-weight: normal;
+        width: 60%;
+        min-width: 20rem;
+        line-height: 1.5rem;
+      }
+
+      p {
+        color: grey;
       }
     }
 

@@ -1,7 +1,7 @@
 import "./MainNavBar.scss";
-import { act, useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
-import decksrayLogo from "/assets/Logo1.png";
+import decksrayLogo from "/assets/logo/logo_main.png";
 
 export const MainNavBar = () => {
   const [showMenuDropdown, setShowMenuDropDown] = useState(false);
