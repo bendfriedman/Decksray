@@ -6,6 +6,7 @@ import { InAction } from "./components/InAction/InAction";
 import { MainBanner } from "./components/MainBanner/MainBanner";
 import { MainFooter } from "./components/MainFooter/MainFooter";
 import { MainNavBar } from "./components/MainNavBar/MainNavBar";
+import { SubscriptionForm } from "./components/SubscriptionForm/SubscriptionForm";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
           <MainBanner />
           <HowItWorks />
         </div>
+
         <InAction />
+
+        <SubscriptionForm />
         <AboutUs />
         <ContactUs />
       </main>

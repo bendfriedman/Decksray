@@ -35,8 +35,8 @@ export const MainNavBar = () => {
       const navLinks = [...document.querySelectorAll("#main-nav-links li")];
       let activeSection;
       for (let i = 0; i < sections.length; i++) {
-        console.log("scrollPos", scrollPos);
-        console.log("sections[i].offsetTop", sections[i].offsetTop);
+        // console.log("scrollPos", scrollPos);
+        // console.log("sections[i].offsetTop", sections[i].offsetTop);
         if (scrollPos - window.innerHeight * 0.9 <= sections[i].offsetTop) {
           activeSection = sections[i];
 

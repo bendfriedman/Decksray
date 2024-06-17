@@ -1,0 +1,51 @@
+.subscription-container {
+  border-top: 1px solid var(--accent-main-clr);
+  border-bottom: 1px solid var(--accent-main-clr);
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("/assets/mtg collection.jpg");
+  background-position: 100%;
+  background-size: 40%;
+
+  .blur-wrapper {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 1.5rem;
+    box-shadow: inset 0px 0px 40px 15px #000;
+
+    h2,
+    .subscription-form {
+      text-align: center;
+      padding: 0.5rem;
+      width: 100%;
+    }
+
+    .subscription-form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      input {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+      }
+
+      input:nth-child(2) {
+        width: 17rem;
+      }
+
+      button {
+        padding: 0.2rem;
+        font-size: 1rem;
+        width: 7rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        background-color: var(--accent-main-clr);
+        font-weight: bold;
+      }
+    }
+  }
+}

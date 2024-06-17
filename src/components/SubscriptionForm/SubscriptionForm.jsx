@@ -1,9 +1,9 @@
-import "./ContactUs.scss";
+import "./SubscriptionForm.scss";
 import { useState } from "react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export const ContactUs = () => {
+export const SubscriptionForm = () => {
   const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
@@ -24,7 +24,7 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log("SUCCESS!", result);
-          setStateMessage("Message sent!");
+          setStateMessage("Thank you for subscribing! :)");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
@@ -40,47 +40,30 @@ export const ContactUs = () => {
   };
 
   return (
-    <section id="contact-us">
-      <div id="contact-us-header">
-        <h2>Contact Us</h2>
-        <h3>We'd love to hear from you.</h3>
-      </div>
-
-      <form id="contact-form" ref={form} onSubmit={sendEmail}>
-        <div>
-          {/* <label>Name</label> */}
+    <div className="subscription-container">
+      <div className="blur-wrapper">
+        <h2>Subscribe to Our Newsletter!</h2>
+        <form className="subscription-form" ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="from_name"
             placeholder="Your Name"
             required
           />
-        </div>
-        <div>
-          {/* <label>Email</label> */}
+
           <input
             type="email"
             name="from_email"
             placeholder="Your Email"
             required
           />
-        </div>
-        <div>
-          {/* <label>Message</label> */}
-          <textarea
-            name="message"
-            minLength="5"
-            rows="15"
-            cols="42"
-            placeholder="Your Message here..."
-            required
-          />
-        </div>
-        <button type="submit" value="Send" disabled={isSubmitting}>
-          Send
-        </button>
-        <p>{stateMessage ? stateMessage : ""}</p>
-      </form>
-    </section>
+
+          <button type="submit" value="Send" disabled={isSubmitting}>
+            Subscribe
+          </button>
+          <p>{stateMessage ? stateMessage : ""}</p>
+        </form>
+      </div>
+    </div>
   );
 };

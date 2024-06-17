@@ -11,7 +11,11 @@ body {
   color: var(--font-main-clr);
   background-color: var(--bg-main-clr);
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  perspective: 10;
+}
+
+textarea {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
 }
 
 #bg-wrapper {
