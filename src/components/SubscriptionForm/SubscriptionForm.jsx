@@ -12,10 +12,16 @@ export const SubscriptionForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
+    const resetStateMessage = () => {
+      setTimeout(() => {
+        setStateMessage(null);
+      }, 7000);
+    };
+
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_SUBCSRIBE_ID,
         form.current,
         {
           publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
@@ -24,15 +30,14 @@ export const SubscriptionForm = () => {
       .then(
         (result) => {
           console.log("SUCCESS!", result);
-          setStateMessage("Thank you for subscribing! :)");
+          setStateMessage("SUCCESS!");
           setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000);
+          // resetStateMessage();
         },
         (error) => {
           console.log("FAILED!", error.text);
           setStateMessage("Something went wrong, please try again later");
+          resetStateMessage();
         }
       );
 
@@ -58,10 +63,13 @@ export const SubscriptionForm = () => {
             required
           />
 
-          <button type="submit" value="Send" disabled={isSubmitting}>
-            Subscribe
-          </button>
-          <p>{stateMessage ? stateMessage : ""}</p>
+          {stateMessage ? (
+            <p className="newsletter-state-message">{stateMessage}</p>
+          ) : (
+            <button type="submit" value="Send" disabled={isSubmitting}>
+              Subscribe
+            </button>
+          )}
         </form>
       </div>
     </div>

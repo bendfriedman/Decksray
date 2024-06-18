@@ -3,7 +3,7 @@
   border-bottom: 1px solid var(--accent-main-clr);
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/mtg collection.jpg");
   background-position: 100%;
   background-size: 40%;
@@ -21,9 +21,14 @@
       width: 100%;
     }
 
+    h2 {
+      color: var(--accent-main-clr);
+    }
+
     .subscription-form {
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 1rem;
@@ -46,6 +51,17 @@
         background-color: var(--accent-main-clr);
         font-weight: bold;
       }
+
+      .newsletter-state-message {
+        color: var(--accent-main-clr);
+        width: 7rem;
+      }
     }
+  }
+}
+
+@media (max-width: 700px) {
+  .subscription-container {
+    background-size: 110%;
   }
 }

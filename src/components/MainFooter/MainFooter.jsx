@@ -4,38 +4,56 @@ export const MainFooter = () => {
   return (
     <div id="main-footer">
       <ul id="main-footer-links">
-        <a href="#">
-          <li>Nexdecks</li>
-        </a>
-        <a href="#">
+        <a
+          href="https://www.privacypolicytemplate.net/live.php?token=FmJgx99xC5IkSfj6NwODp25yXEk9q1P5"
+          target="_blank"
+        >
           <li>Privacy Policy</li>
         </a>
-        <a href="#">
+        {/* <a href="#contact-us">
           <li>Support Us</li>
+        </a> */}
+        {/* <a href="#contact-us">
+          <li>Imprint</li>
+        </a> */}
+        <a href="#contact-us">
+          <li>Contact</li>
         </a>
       </ul>
       <div id="main-footer-socials">
-        <a href="#">
-          <i className="fa-brands fa-discord" />
-        </a>
-        <a href="#">
-          <i className="fa-brands fa-facebook" />
-        </a>
-        <a href="#">
-          <i className="fa-brands fa-twitter" />
-        </a>
-        <a href="#">
-          <i className="fa-brands fa-twitch" />
-        </a>
-        <a href="#">
+        <a href="https://www.youtube.com/@Decksray" target="_blank">
           <i className="fa-brands fa-youtube" />
         </a>
-        <a href="#">
+        <a href="#contact-us">
+          <i className="fa-brands fa-twitter" />
+        </a>
+
+        {/* coming soon!!!*/}
+
+        {/* <a href="#contact-us">
+          <i className="fa-brands fa-kickstarter" />
+        </a> */}
+
+        {/* coming in the near future */}
+
+        {/* <a href="#contact-us">
           <i className="fa-brands fa-patreon" />
         </a>
-        <a href="#">
-          <i className="fa-brands fa-kickstarter" />
+        <a href="#contact-us">
+          <i className="fa-brands fa-instagram" />
         </a>
+        <a href="#contact-us">
+          <i className="fa-brands fa-facebook" />
+        </a>
+        <a href="#contact-us">
+          <i className="fa-brands fa-discord" />
+        </a>
+        <a href="#contact-us">
+          <i className="fa-brands fa-tiktok" />
+        </a>
+        <a href="#contact-us">
+          <i className="fa-brands fa-twitch" />
+        </a> */}
       </div>
       <p id="main-footer-disclaimer">
         Magic: The Gathering is a Trademark of Wizards of the Coast, Inc. and

@@ -1,8 +1,10 @@
+import { SubscriptionForm } from "../SubscriptionForm/SubscriptionForm";
 import "./AboutUs.scss";
 
 export const AboutUs = () => {
   return (
     <section id="about-us">
+      <SubscriptionForm />
       <h2>About Us</h2>
       <div id="about-us-profile-container">
         <div className="about-us-profile-card">

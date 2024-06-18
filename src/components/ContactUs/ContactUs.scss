@@ -1,16 +1,16 @@
 #contact-us {
   background: radial-gradient(
     circle at 15% 150%,
-    rgba(38, 180, 56, 1) 10%,
-    rgb(15, 66, 21) 35%,
+    rgba(38, 180, 56, 1) 5%,
+    rgb(15, 66, 21) 25%,
     rgba(0, 0, 0, 1) 60%
   );
-  min-height: 85vh;
+  min-height: 84vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
   gap: 2rem;
 
   #contact-us-header {
@@ -36,6 +36,8 @@
 
       textarea {
         resize: none;
+        font-family: "Lato", Helvetica, Arial, sans-serif;
+        font-size: 0.9rem;
       }
     }
 

@@ -40,6 +40,7 @@
         transition: color 200ms ease-in;
         text-wrap: nowrap;
         padding: 0.5rem 1.4rem;
+        transition: all 200ms ease-in;
       }
 
       li:not(:last-child) {
@@ -48,6 +49,7 @@
 
       li.active {
         color: var(--accent-main-clr);
+        text-decoration: overline;
       }
 
       #main-nav-arrow-up-container {

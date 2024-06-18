@@ -19,12 +19,11 @@ function App() {
           <MainBanner />
           <HowItWorks />
         </div>
-
         <InAction />
-
-        <SubscriptionForm />
         <AboutUs />
         <ContactUs />
+
+        <SubscriptionForm />
       </main>
       <footer>
         <MainFooter />
