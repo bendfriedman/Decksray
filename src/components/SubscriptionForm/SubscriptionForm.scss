@@ -5,7 +5,7 @@
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/assets/mtg collection.jpg");
-  background-position: 100%;
+  background-position: 100% 100%;
   background-size: 40%;
 
   .blur-wrapper {
@@ -55,6 +55,19 @@
       .newsletter-state-message {
         color: var(--accent-main-clr);
         width: 7rem;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .subscription-container {
+    animation: bg-scroll-move linear forwards;
+    animation-timeline: scroll();
+
+    @keyframes bg-scroll-move {
+      to {
+        background-position: 100% 0%;
       }
     }
   }

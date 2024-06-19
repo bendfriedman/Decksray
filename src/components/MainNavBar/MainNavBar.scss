@@ -49,7 +49,7 @@
 
       li.active {
         color: var(--accent-main-clr);
-        text-decoration: overline;
+        text-decoration: underline overline;
       }
 
       #main-nav-arrow-up-container {

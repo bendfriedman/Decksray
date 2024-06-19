@@ -21,7 +21,6 @@ export const MainBanner = () => {
           <p>(coming soon)</p>
         </div>
         <div id="main-banner-text-btns">
-          {/* <button>CTA</button> */}
           <button>
             <a href="#how-it-works">More Info</a>
           </button>
