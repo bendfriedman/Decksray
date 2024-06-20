@@ -21,10 +21,10 @@ export const MainFooter = () => {
         </a>
       </ul>
       <div id="main-footer-socials">
-        <a href="https://www.youtube.com/@Decksray" target="_blank">
+        <a href="https://youtube.com/@Decksray" target="_blank">
           <i className="fa-brands fa-youtube" />
         </a>
-        <a href="#contact-us">
+        <a href="https://x.com/decksray" target="_blank">
           <i className="fa-brands fa-twitter" />
         </a>
 

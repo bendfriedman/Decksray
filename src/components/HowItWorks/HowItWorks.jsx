@@ -18,7 +18,7 @@ export const HowItWorks = () => {
             alt="scan img"
             loading="lazy"
           />
-          <h3>High-Quality Scanning:</h3>
+          <h3>Scan your Trading Cards:</h3>
           <p>
             Ensures precise and detailed scans, preserving unique card
             characteristics

@@ -76,7 +76,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
 
     img {
       height: calc(var(--_banner-height) * 0.9);
@@ -95,6 +95,7 @@
     #main-banner-text {
       width: 100%;
       height: fit-content;
+      padding: 2rem;
 
       #main-banner-text-1 {
         --_h1-font-size: 3rem;

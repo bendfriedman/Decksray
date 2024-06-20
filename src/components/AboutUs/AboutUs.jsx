@@ -28,12 +28,11 @@ export const AboutUs = () => {
           <div className="text-box ben">
             <div className="text-box-inner">
               <p>
-                I'm a passionate Magic: The Gathering player and collector,
-                always ready for a good EDH game. After years of experience in
-                finance, I've recently chosen a new career path. As a web
-                developer I bring my love for coding to life. Whether it's
-                casting spells or writing code, I'm always up for a new
-                challenge!
+                I'm a passionate "Magic" player and collector, always ready for
+                a good EDH game. After years of experience in finance, I've
+                recently chosen a new career path. As a web developer I bring my
+                love for coding to life. Whether it's casting spells or writing
+                code, I'm always up for a new challenge!
               </p>
             </div>
           </div>
@@ -61,11 +60,11 @@ export const AboutUs = () => {
           <div className="text-box david">
             <div className="text-box-inner">
               <p>
-                As a die-hard (red!) Magic: The Gathering fan I love diving into
-                the world of cards. With years of experience in metalworking and
-                construction, I can handle a hammer and wrench. Nowadays, I'm
-                having a blast as a mechatronics engineer, using my love for
-                tech to create some cool stuff!
+                As a die-hard (red!) "Magic: The Gathering" fan I love diving
+                into the world of cards. With years of experience in
+                metalworking and construction, I can handle a hammer and wrench.
+                Nowadays, I'm having a blast as a mechatronics engineer, using
+                my love for tech to create some cool stuff!
               </p>
             </div>
           </div>
