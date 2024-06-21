@@ -18,22 +18,22 @@ Decksray introduces a state-of-the-art scanner that swiftly and accurately scans
 
 ## **Key Features:**
 
-High-Quality Scanning: Ensures precise and detailed scans of each card, preserving their unique characteristics and details.
-Effortless Cataloguing: Generates a CSV file with all the scanned card data, streamlining the organization and management of your collection.
-Affordable: Priced for accessibility, making it an excellent choice for individual collectors rather than just businesses.
-User-Friendly Interface: Intuitive and easy to use, catering to both tech-savvy users and those less familiar with advanced technology.
+- High-Quality Scanning: Ensures precise and detailed scans of each card, preserving their unique characteristics and details.
+- Effortless Cataloguing: Generates a CSV file with all the scanned card data, streamlining the organization and management of your collection.
+- Affordable: Priced for accessibility, making it an excellent choice for individual collectors rather than just businesses.
+- User-Friendly Interface: Intuitive and easy to use, catering to both tech-savvy users and those less familiar with advanced technology.
 
 ## **Benefits:**
 
-Time-Saving: Dramatically reduces the time needed to catalog large collections.
-Accurate Records: Minimizes the risk of human error in cataloguing.
-Cost-Effective: Provides a budget-friendly alternative to expensive B2B solutions.
+- Time-Saving: Dramatically reduces the time needed to catalog large collections.
+- Accurate Records: Minimizes the risk of human error in cataloguing.
+- Cost-Effective: Provides a budget-friendly alternative to expensive B2B solutions.
 
 ## **Target Audience:**
 
-Individual Collectors: Especially those with large collections of trading cards such as Magic: The Gathering, Pokémon, Yu-Gi-Oh!, and more.
-Card Shops: Small to medium-sized businesses looking for an affordable way to manage inventory.
-Trading Card Enthusiasts: Anyone passionate about maintaining an organized and accessible card collection.
+- Individual Collectors: Especially those with large collections of trading cards such as Magic: The Gathering, Pokémon, Yu-Gi-Oh!, and more.
+- Card Shops: Small to medium-sized businesses looking for an affordable way to manage inventory.
+- Trading Card Enthusiasts: Anyone passionate about maintaining an organized and accessible card collection.
 
 ## **Conclusion:**
 
