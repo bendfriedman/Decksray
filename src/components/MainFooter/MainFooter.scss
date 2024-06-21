@@ -13,9 +13,10 @@
 
     li {
       cursor: pointer;
-      transition: color 200ms ease-in;
       text-wrap: nowrap;
       padding: 0.5rem;
+      font-size: 0.9rem;
+      transition: color 200ms ease-in;
     }
 
     li:hover {
@@ -30,6 +31,7 @@
       cursor: pointer;
       transition: color 200ms ease-in;
       padding: 0.5rem;
+      font-size: 1.2rem;
     }
 
     i:hover {

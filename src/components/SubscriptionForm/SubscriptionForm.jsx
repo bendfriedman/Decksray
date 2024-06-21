@@ -32,11 +32,11 @@ export const SubscriptionForm = () => {
           console.log("SUCCESS!", result);
           setStateMessage("SUCCESS!");
           setIsSubmitting(false);
-          // resetStateMessage();
+          resetStateMessage();
         },
         (error) => {
           console.log("FAILED!", error.text);
-          setStateMessage("Something went wrong, please try again later");
+          setStateMessage("Something went wrong, please try again later.");
           resetStateMessage();
         }
       );

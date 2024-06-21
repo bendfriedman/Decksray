@@ -5,10 +5,22 @@ export const MainFooter = () => {
     <div id="main-footer">
       <ul id="main-footer-links">
         <a
-          href="https://www.privacypolicytemplate.net/live.php?token=FmJgx99xC5IkSfj6NwODp25yXEk9q1P5"
+          href="https://www.termsfeed.com/live/38b88b54-eab1-41ed-81f7-c68e55cbf7dd"
           target="_blank"
         >
           <li>Privacy Policy</li>
+        </a>
+        <a
+          href="https://www.termsfeed.com/live/1bef4889-e568-404f-9b23-9b034d47d9ec"
+          target="_blank"
+        >
+          <li>Terms & Conditions</li>
+        </a>
+        <a
+          href="https://www.termsfeed.com/live/c5611791-bc93-4c6e-8277-77e1e5bb90cd"
+          target="_blank"
+        >
+          <li>Cookies Policy</li>
         </a>
         {/* <a href="#contact-us">
           <li>Support Us</li>

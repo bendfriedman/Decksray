@@ -20,7 +20,7 @@ function App() {
           <MainBanner />
           <HowItWorks />
         </div>
-        <KeyFeatures />
+        {/* <KeyFeatures /> */}
         <InAction />
         <AboutUs />
         <ContactUs />
