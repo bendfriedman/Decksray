@@ -39,8 +39,18 @@
     iframe {
       border: 0px solid var(--accent-main-clr);
       height: var(--_img_iframe_height);
-      aspect-ratio: 9 / 16;
+      aspect-ratio: 16 / 9;
       border-radius: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #in-action {
+    #in-action-gallery {
+      iframe {
+        aspect-ratio: 9 / 16;
+      }
     }
   }
 }

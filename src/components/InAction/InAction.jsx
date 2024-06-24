@@ -15,7 +15,7 @@ export const InAction = () => {
         />
 
         <iframe
-          src="https://www.youtube.com/embed/t0FgKGVeJr0?si=_EXIKbafwsucIl6G&;controls=1&rel=0"
+          src="https://www.youtube.com/embed/AYXL42IYhKE?si=-2w2ih0prkxUEN-J&;controls=1&rel=0"
           title="YouTube video player - Decksray in action"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media;fullscreen; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"

@@ -17,7 +17,7 @@ export const AboutUs = () => {
             </div>
           </div>
           <div className="art-box">
-            <img src="/assets/ppl/Ben.jpg" alt="ben friedman" />
+            <img src="/assets/ppl/Ben.jpg" alt="photo of ben friedman" />
           </div>
           <div className="type-box">
             <h5>Creature - Human Developer</h5>
@@ -49,7 +49,7 @@ export const AboutUs = () => {
             </div>
           </div>
           <div className="art-box">
-            <img src="/assets/ppl/David.jpg" alt="david hebestreit" />
+            <img src="/assets/ppl/David.jpg" alt="photo of david hebestreit" />
           </div>
           <div className="type-box">
             <h5>Creature - Human Tinkerer</h5>
